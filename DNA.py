@@ -1,3 +1,5 @@
+#This program prints out the longest common sequence(s) for any two strands of DNA passed.
+
 import sys
 # Input: s1 and s2 are two strings that represent strands of DNA
 # Output: returns a sorted list of substrings that are the longest 
