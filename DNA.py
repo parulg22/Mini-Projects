@@ -64,34 +64,6 @@ def longest_subsequence (s1, s2):
   subsequences.sort()
   return subsequences
 
-
-
-
-
-  """
-    if (len(s1) <= longestLen):
-      return longestSeq
-    elif(s1[: longestLen] in s2):
-      longestSeq = s1[:longestLen]
-      longestLen += 1
-      longest_subsequence(s1,s2)
-    elif(s1[:longestLen] not in s2):
-      longest_subsequence(s1[1:], s2)
-    
-    
-    
-    Grab the first 2 chars in s1 
-    Check thru every sequence of 2 in s2
-    If one repeats then inc substring in s1 by 1
-    Check thru s2 again
-    store the longest length as 2 and the longest substring somewhere
-      if equal then inc length of the substring 
-
-    
-
-
-
-    """
 def main():
   #test all functions
   test_cases()
