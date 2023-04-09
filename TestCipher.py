@@ -138,12 +138,6 @@ def decode_character (p, s):
         char = chr(diff)
     return char
 
-
-
-    
-
-    return ""	# placeholder for actual return statement
-
 #  Input: strng is a string of characters and phrase is a pass phrase
 #  Output: function returns a single string that is encoded with
 #          Vigenere algorithm
